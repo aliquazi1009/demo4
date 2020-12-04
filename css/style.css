@@ -140,26 +140,27 @@ nav .side-nav {
     background-color: #111;  
     overflow-x: hidden;
     transition: 0.4s;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
 }
 nav .side-nav-content {
     position: relative;  
-    top: 80px;
-    margin: 0 10px 50px 50px !important;
+    top: 50%;
+    left: 50%;
+    /* margin: 0 10px 50px 50px !important; */
     /* background-color: rgb(48, 48, 48); */
     display: inline-block;
-    transform: translateX(-10%);
+    transform: translate(-50%,-50%);
     text-align: left;  
     /* padding: 0 100px;   */
 } 
 nav .side-nav .side-nav-content a{  
     /* padding: 10px;   */
     font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
-    margin: 10px 0; 
+    font-weight: 700;
+    margin: 20px 0; 
     /* background-color: skyblue;  */
     text-decoration: none;  
-    font-size: 20px;
+    font-size: 22px;
     color: #9c9c9c;   
     display: block;  
     transition: .2s linear;  
